@@ -15,19 +15,19 @@
 ## Unidad 2: Fundamentos de HTML5 y CSS3
 
 ### HTML
--  [ ] Primer HTML
--  [ ] Secciones
--  [ ] Títulos
--  [ ] Listas
--  [ ] Link
--  [ ] Tablas I
--  [ ] Tablas II
--  [ ] Tablas III
--  [ ] Tablas VI
--  [ ] Comentarios
--  [ ] Formulario
--  [ ] Accesibilidad
--  [ ] Multimedia
+-  [si ] Primer HTML
+-  [ si] Secciones
+-  [si ] Títulos
+-  [si ] Listas
+-  [ si] Link
+-  [si ] Tablas I
+-  [si ] Tablas II
+-  [si ] Tablas III
+-  [ si] Tablas VI
+-  [si ] Comentarios
+-  [ is] Formulario
+-  [ si] Accesibilidad
+-  [ si] Multimedia
 
 ### CSS
 -  [ ] Propiedades tipográficas
