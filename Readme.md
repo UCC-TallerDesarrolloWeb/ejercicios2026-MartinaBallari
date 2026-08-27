@@ -10,7 +10,7 @@
 
 ## Unidad 1: Introducción y Herramientas de Desarrollo
 -  [si ] Readme.md
--  [ ] .gitignore
+-  [ si] .gitignore
 
 ## Unidad 2: Fundamentos de HTML5 y CSS3
 
