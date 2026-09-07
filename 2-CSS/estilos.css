@@ -1,0 +1,57 @@
+
+        /* Estilo por Tag (body): Gradiente de fondo agregado */
+        body {
+            text-align: center;
+            font-family: "PT Sans", sans-serif;
+            background: linear-gradient(135deg, #a8e6cf, #dbede6);
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Sombras aplicadas a títulos (h1-h4) y textos (p) */
+        h1, h2, h3, h4 {
+            font-family: "Lilita One", sans-serif;
+            font-weight: 400;
+            margin: 10px 0;
+            color: #024041;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+        }
+
+        p {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilo por Tag (div): Esquinas redondeadas y sombras agregadas */
+        body > div {
+            border: 1px solid rgb(2, 64, 65);
+            margin: 15px auto;
+            padding: 15px 25px;
+            background-color: rgb(130, 225, 193);
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+            max-width: 800px;
+            overflow: hidden; 
+        }
+
+        /* Estilo por ID (#user): Imagen circular (border-radius: 50%) */
+        #user {
+            width: 80px;
+            height: 80px;
+            float: left;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        /* Estilo por Clase (.curso-box): Esquinas redondeadas y sombra para divs anidados */
+        .curso-box {
+            border: 1px dashed rgb(2, 64, 65);
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    
