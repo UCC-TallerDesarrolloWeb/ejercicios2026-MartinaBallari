@@ -16,10 +16,16 @@
         <li>caballos </li>
     </ul>
     </p>
-    <p>
-        El caballo emite el siguiente sonido:
-        <!--Insertar audio de la carpeta resources-->
-    </p>
+
+    <figure>
+        <p>El caballo emite el siguiente sonido:</p>
+        <audio controls>
+            <source src="1-HTML/resources/horse.ogg" type="audio/mpeg">
+            <source src="resources/caballo.ogg" type="audio/ogg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <figcaption>Fig.1 - Sonido emitido por un caballo.</figcaption>
+    </figure>
 </div>
 
 <div>
@@ -32,11 +38,18 @@
         Estos gigantes omnívoros suelen ser solitarios, a excepción de las hembras y sus oseznos,
         aunque en ocasiones sí se reúnen.
     </p>
-    <p>
-        En Alaska, cuando el salmón remonta el río para el desove estival, los osos pueden reunirse para pescar.
-        <!--Insertar Video de osos pescando ubicado en la carpeta de resources-->
-    </p>
+
+    <figure>
+        <p>En Alaska, cuando el salmón remonta el río para el desove estival, los osos pueden reunirse para pescar.</p>
+        <video controls width="560">
+            <source src="resources/osos_pescando.mp4" type="video/mp4">
+            <source src="resources/osos_pescando.webm" type="video/webm">
+            Tu navegador no soporta el elemento de video.
+        </video>
+        <figcaption>Fig.2 - Osos pescando salmón en Alaska.</figcaption>
+    </figure>
 </div>
+
 <div>
     <h2>León</h2>
     <p>
@@ -46,7 +59,11 @@
         Es un animal de gran tamaño, ya que un león macho puede llegar a pesar aproximadamente hasta 300 kilogramos,
         siendo de esta manera el félido vivo mas grande después de su pariente el Tigre.
     </p>
-    <!--Insertar video de youtube sobre leones-->
+
+    <figure>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Documental sobre leones" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <figcaption>Fig.3 - Video documental sobre leones.</figcaption>
+    </figure>
 </div>
 </body>
 </html>

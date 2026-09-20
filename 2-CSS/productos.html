@@ -1,14 +1,64 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
     <head>
         <title> catalogo de productos </title>
         <link href="catalogo.css" type="text/css" rel="stylesheet">
-
     </head>
-    <body>
-        <main>
+
+    <body class="grid-container">
+
+        <header class="item1">
+            catalogo de productos
+        </header>
+
+        <nav class="item2">
+            links de navegacion
+        </nav>
+
+        <aside class="item3">
+            <form>
+                <!-- Sección Búsqueda -->
+                <fieldset>
+                    <legend>Búsqueda</legend>
+                    <label for="buscar">Buscar:</label>
+                    <input type="text" id="buscar" name="buscar">
+                </fieldset>
+
+                <!-- Sección Precios -->
+                <fieldset>
+                    <legend>Precios</legend>
+                    <p>
+                        <label for="minimo">Mínimo:</label>
+                        <input type="number" id="minimo" name="minimo">
+                    </p>
+                    <p>
+                        <label for="maximo">Máximo:</label>
+                        <input type="number" id="maximo" name="maximo">
+                    </p>
+                </fieldset>
+
+                <!-- Sección Tipo de Productos -->
+                <fieldset>
+                    <legend>Tipo de Productos</legend>
+                    <p>
+                        <input type="checkbox" id="protectores" name="tipo" value="protectores">
+                        <label for="protectores">Protectores</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="entrenamiento" name="tipo" value="entrenamiento">
+                        <label for="entrenamiento">Entrenamiento</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="doboks" name="tipo" value="doboks">
+                        <label for="doboks">Doboks</label>
+                    </p>
+                </fieldset>
+            </form>
+        </aside>
+
+        <main class="item4">
+
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/dobok.webp" alt="dobok">
                 <h3>dobok</h3>
@@ -38,7 +88,12 @@
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/protectores-pie.webp" alt="protectores de pie">
                 <h3>protectores pie</h3>
             </div>
+
         </main>
+
+        <footer class="item5">
+            contacto
+        </footer>
 
     </body>
 </html>
