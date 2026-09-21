@@ -114,27 +114,25 @@ function mostrarOcultar(valor) {
     }
 } 
 
-// OPERACIONES MATEMÁTICAS
+// OPERACIONES MATEMÁTICAS II (uso de innerHTML)
 
-// Función Sumar
+// Sumar
 const sumar = () => {
     let num1 = document.getElementById("nums1").value;
     let num2 = document.getElementById("nums2").value;
 
-    // Verificar que ambos campos tengan contenido
     if (num1 !== "" && num2 !== "") {
-        // Casteo explícito de String a Number
         let res = Number(num1.replace(",", ".")) + Number(num2.replace(",", "."));
         if (!isNaN(res)) {
-            document.getElementById("totalS").value = res;
+            document.getElementById("totalS").innerHTML = res;
         } else {
             alert("Ingrese valores numéricos válidos");
-            document.getElementById("totalS").value = "";
+            document.getElementById("totalS").innerHTML = "";
         }
     }
 };
 
-// Función Restar
+// Restar
 const restar = () => {
     let num1 = document.getElementById("numr1").value;
     let num2 = document.getElementById("numr2").value;
@@ -142,15 +140,15 @@ const restar = () => {
     if (num1 !== "" && num2 !== "") {
         let res = Number(num1.replace(",", ".")) - Number(num2.replace(",", "."));
         if (!isNaN(res)) {
-            document.getElementById("totalR").value = res;
+            document.getElementById("totalR").innerHTML = res;
         } else {
             alert("Ingrese valores numéricos válidos");
-            document.getElementById("totalR").value = "";
+            document.getElementById("totalR").innerHTML = "";
         }
     }
 };
 
-// Función Multiplicar
+// Multiplicar
 const multiplicar = () => {
     let num1 = document.getElementById("numm1").value;
     let num2 = document.getElementById("numm2").value;
@@ -158,15 +156,15 @@ const multiplicar = () => {
     if (num1 !== "" && num2 !== "") {
         let res = Number(num1.replace(",", ".")) * Number(num2.replace(",", "."));
         if (!isNaN(res)) {
-            document.getElementById("totalM").value = res;
+            document.getElementById("totalM").innerHTML = res;
         } else {
             alert("Ingrese valores numéricos válidos");
-            document.getElementById("totalM").value = "";
+            document.getElementById("totalM").innerHTML = "";
         }
     }
 };
 
-// Función Dividir
+// Dividir
 const dividir = () => {
     let num1 = document.getElementById("numd1").value;
     let num2 = document.getElementById("numd2").value;
@@ -175,17 +173,16 @@ const dividir = () => {
         let val2 = Number(num2.replace(",", "."));
         if (val2 === 0) {
             alert("No se puede dividir por cero");
-            document.getElementById("totalD").value = "";
+            document.getElementById("totalD").innerHTML = "";
             return;
         }
 
         let res = Number(num1.replace(",", ".")) / val2;
         if (!isNaN(res)) {
-            document.getElementById("totalD").value = res;
+            document.getElementById("totalD").innerHTML = res;
         } else {
             alert("Ingrese valores numéricos válidos");
-            document.getElementById("totalD").value = "";
+            document.getElementById("totalD").innerHTML = "";
         }
     }
 };
-
