@@ -62,38 +62,64 @@
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/dobok.webp" alt="dobok">
                 <h3>dobok</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
             </div>
 
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/cabezal-cerrado.webp" alt="cabezal">
                 <h3>cabezal cerrado</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
             </div>
 
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/escudo-potencia.webp" alt="escudo de potencia">
                 <h3>escudo de potencia</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
             </div>
 
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/foco-con-dedos.webp" alt="foco con dedos">
                 <h3>foco con dedos</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
             </div>
 
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/protectores-manos.webp" alt="guantes 10 onzas">
                 <h3>guantes 10 onzas</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
             </div>
 
             <div>
                 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/protectores-pie.webp" alt="protectores de pie">
                 <h3>protectores pie</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
             </div>
 
         </main>
 
+        <!-- Elemento Dialog -->
+        <dialog id="dialogDetalle">
+            <h2>Detalle del Producto</h2>
+            <p>Descripción detallada del producto seleccionado, precio, stock y características.</p>
+            <button onclick="cerrarDialog()">Cerrar</button>
+        </dialog>
+
         <footer class="item5">
             contacto
         </footer>
+
+        <!-- Script con las funciones para mostrar y ocultar -->
+        <script>
+            const dialog = document.getElementById('dialogDetalle');
+
+            function abrirDialog() {
+                dialog.showModal();
+            }
+
+            function cerrarDialog() {
+                dialog.close();
+            }
+        </script>
 
     </body>
 </html>
