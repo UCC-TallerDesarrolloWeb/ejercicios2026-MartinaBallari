@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <title> catalogo de productos </title>
+        <link href="catalogo.css" type="text/css" rel="stylesheet">
+    </head>
+
+    <body class="grid-container">
+
+        <header class="item1">
+            catalogo de productos
+        </header>
+
+        <nav class="item2">
+            links de navegacion
+        </nav>
+
+        <aside class="item3">
+            <form>
+                <!-- Sección Búsqueda -->
+                <fieldset>
+                    <legend>Búsqueda</legend>
+                    <label for="buscar">Buscar:</label>
+                    <input type="text" id="buscar" name="buscar">
+                </fieldset>
+
+                <!-- Sección Precios -->
+                <fieldset>
+                    <legend>Precios</legend>
+                    <p>
+                        <label for="minimo">Mínimo:</label>
+                        <input type="number" id="minimo" name="minimo">
+                    </p>
+                    <p>
+                        <label for="maximo">Máximo:</label>
+                        <input type="number" id="maximo" name="maximo">
+                    </p>
+                </fieldset>
+
+                <!-- Sección Tipo de Productos -->
+                <fieldset>
+                    <legend>Tipo de Productos</legend>
+                    <p>
+                        <input type="checkbox" id="protectores" name="tipo" value="protectores">
+                        <label for="protectores">Protectores</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="entrenamiento" name="tipo" value="entrenamiento">
+                        <label for="entrenamiento">Entrenamiento</label>
+                    </p>
+                    <p>
+                        <input type="checkbox" id="doboks" name="tipo" value="doboks">
+                        <label for="doboks">Doboks</label>
+                    </p>
+                </fieldset>
+            </form>
+        </aside>
+
+        <main class="item4">
+
+            <div>
+                <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/dobok.webp" alt="dobok">
+                <h3>dobok</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
+            </div>
+
+            <div>
+                <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/cabezal-cerrado.webp" alt="cabezal">
+                <h3>cabezal cerrado</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
+            </div>
+
+            <div>
+                <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/escudo-potencia.webp" alt="escudo de potencia">
+                <h3>escudo de potencia</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
+            </div>
+
+            <div>
+                <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/foco-con-dedos.webp" alt="foco con dedos">
+                <h3>foco con dedos</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
+            </div>
+
+            <div>
+                <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/protectores-manos.webp" alt="guantes 10 onzas">
+                <h3>guantes 10 onzas</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
+            </div>
+
+            <div>
+                <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/protectores-pie.webp" alt="protectores de pie">
+                <h3>protectores pie</h3>
+                <button onclick="abrirDialog()">Ver detalle de Producto</button>
+            </div>
+
+        </main>
+
+        <!-- Elemento Dialog -->
+        <dialog id="dialogDetalle">
+            <h2>Detalle del Producto</h2>
+            <p>Descripción detallada del producto seleccionado, precio, stock y características.</p>
+            <button onclick="cerrarDialog()">Cerrar</button>
+        </dialog>
+
+        <footer class="item5">
+            contacto
+        </footer>
+
+        <!-- Script con las funciones para mostrar y ocultar -->
+        <script>
+            const dialog = document.getElementById('dialogDetalle');
+
+            function abrirDialog() {
+                dialog.showModal();
+            }
+
+            function cerrarDialog() {
+                dialog.close();
+            }
+        </script>
+
+    </body>
+</html>
