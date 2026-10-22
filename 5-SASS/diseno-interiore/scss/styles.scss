@@ -1,0 +1,96 @@
+@use "mobile";
+@use "variables";
+@use "componentes";
+
+$color-principal: #e91e63;
+$color-secundario: #f8bbd0;
+$color-fondo: #fce4ec;
+$color-texto: #333333;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: $color-texto;
+    background-color: $color-fondo;
+}
+
+header {
+    background-color: $color-principal;
+    color: white;
+    text-align: center;
+    padding: 30px;
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
+
+nav {
+    background-color: $color-secundario;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+
+    a {
+        color: $color-texto;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            color: $color-principal;
+        }
+    }
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+.principal {
+    img {
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 2px 8px #0000001a;
+
+    h3 {
+        color: $color-principal;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+footer {
+    background-color: $color-principal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+

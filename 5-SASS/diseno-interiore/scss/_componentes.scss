@@ -1,0 +1,25 @@
+@mixin estilo($fondo, $letra) {
+    background-color: $fondo;
+    color: $letra;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card {
+    @include estilo(#ffffff, #333333);
+    margin: 15px 0;
+
+    h2 {
+        color: #6c63ff;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+.boton {
+    @include estilo(#28a745, white);
+    border: none;
+    cursor: pointer;
+}
