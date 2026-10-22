@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
 
@@ -14,11 +15,13 @@
     </header>
 
     <nav class="item2">
-        <a href="carrito.html">Ver Mi Carrito</a>
+        <a href="carrito.html">
+            Ver Mi Carrito (<span id="contadorCarrito">0</span>)
+        </a>
     </nav>
 
     <aside class="item3">
-        <form>
+        <form onsubmit="return false;">
             <fieldset>
                 <legend>Búsqueda</legend>
                 <label for="buscar">Buscar:</label>
@@ -29,12 +32,23 @@
                 <legend>Precios</legend>
                 <p>
                     <label for="minimo">Mínimo:</label>
-                    <input type="number" id="minimo" name="minimo">
+                    <input type="number" id="minimo" name="minimo" min="0">
                 </p>
                 <p>
                     <label for="maximo">Máximo:</label>
-                    <input type="number" id="maximo" name="maximo">
+                    <input type="number" id="maximo" name="maximo" min="0">
                 </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Marca</legend>
+                <label for="marca">Seleccionar marca:</label>
+                <select id="marca" name="marca">
+                    <option value="">Todas las marcas</option>
+                    <option value="Adidas">Adidas</option>
+                    <option value="Daedo">Daedo</option>
+                    <option value="Kwon">Kwon</option>
+                </select>
             </fieldset>
 
             <fieldset>
@@ -51,6 +65,18 @@
                     <input type="checkbox" id="doboks" name="tipo" value="doboks">
                     <label for="doboks">Doboks</label>
                 </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Ordenar catálogo</legend>
+                <label for="ordenar">Ordenar por:</label>
+                <select id="ordenar" name="ordenar">
+                    <option value="">Sin ordenar</option>
+                    <option value="precioAsc">Precio: menor a mayor</option>
+                    <option value="precioDesc">Precio: mayor a menor</option>
+                    <option value="nombreAsc">Nombre: A-Z</option>
+                    <option value="nombreDesc">Nombre: Z-A</option>
+                </select>
             </fieldset>
         </form>
     </aside>
@@ -72,3 +98,4 @@
     <script src="tienda.js"></script>
 </body>
 </html>
+```
