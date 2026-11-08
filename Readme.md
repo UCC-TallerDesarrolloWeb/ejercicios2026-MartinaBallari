@@ -3,7 +3,7 @@
 - Comitea luego de cada ejercicio
 - Haz los ejercicios en clase (recuerda que presentarlos es obligatorio para rendir el final)
 - No uses herramientas de IA para los ejercicios de clase
-- Mira los videos de las diapositivas que explican cómo resolver cada ejercicio
+- Mira los videos de las diapositivas que explican cómo aresolver cada ejercicio
 - Marca en este readme que ejercicios ya has resuelto
 
 # Checklist de Ejercicios OBLIGATORIOS por unidad
@@ -30,75 +30,75 @@
 -  [ si] Multimedia
 
 ### CSS
--  [ ] Propiedades tipográficas
--  [ ] Incrustado
--  [ ] Estilo con Descendientes
--  [ ] Pseudo Clases
--  [ ] CV
--  [ ] Backgrounds
--  [ ] Position
--  [ ] 2 Columnas
--  [ ] Grid
--  [ ] grid-areas
--  [ ] Mejora
--  [ ] Transitions
--  [ ] Viewport
--  [ ] Responsive
+-  [si ] Propiedades tipográficas
+-  [si ] Incrustado
+-  [si ] Estilo con Descendientes
+-  [si ] Pseudo Clases
+-  [si ] CV
+-  [ si] Backgrounds
+-  [ si] Position
+-  [si ] 2 Columnas
+-  [ si] Grid
+-  [si ] grid-areas
+-  [si ] Mejora
+-  [si ] Transitions
+-  [si ] Viewport
+-  [si ] Responsive
 
 ## Unidad 3: JavaScript y ES6+
 
--  [ ] Hola Mundo!
--  [ ] Conversor de Unidades
--  [ ] Documentación
--  [ ] Grados a Radianes
--  [ ] Refactorización
--  [ ] Mostrar/Ocultar div
--  [ ] Mostrar/Ocultar Dialog
--  [ ] Operaciones Matemáticas
--  [ ] Conversor de Unidades II
--  [ ] Operaciones Matemáticas II
--  [ ] Renderizado Dinámico
--  [ ] Renderizado Dinámico del Dialog
--  [ ] Carrito de Compras con localstorage
--  [ ] Vaciar Carrito y Eliminar Producto
--  [ ] Filter
--  [ ] Formatear Precio
--  [ ] Total y Cantidad de Productos
--  [ ] Ordenar el catálogo
+-  [si ] Hola Mundo!
+-  [ si] Conversor de Unidades
+-  [ si] Documentación
+-  [si] Grados a Radianes
+-  [ si] Refactorización
+-  [si ] Mostrar/Ocultar div
+-  [si ] Mostrar/Ocultar Dialog
+-  [ si] Operaciones Matemáticas
+-  [ si] Conversor de Unidades II
+-  [si ] Operaciones Matemáticas II
+-  [si ] Renderizado Dinámico
+-  [ si] Renderizado Dinámico del Dialog
+-  [si ] Carrito de Compras con localstorage
+-  [si ] Vaciar Carrito y Eliminar Producto
+-  [si ] Filter
+-  [si ] Formatear Precio
+-  [ si] Total y Cantidad de Productos
+-  [ si] Ordenar el catálogo
 
 ## Unidad 4: Funcionamiento del Navegador y Herramientas de Desarrollo
--  [ ] Checkeo de accesiilidad: AXE
--  [ ] Checkeo de Lighthouse: accesibilidad, CEO, performance, buenas prácticas
+-  [ si] Checkeo de accesiilidad: AXE
+-  [si ] Checkeo de Lighthouse: accesibilidad, CEO, performance, buenas prácticas
 
 ## Unidad 5: Frameworks y Preprocesadores CSS
 
 ### BootStrap
--  [ ] Instagram
--  [ ] Componente para selección de vuelos
--  [ ] Timeline
--  [ ] Componente Perfil
--  [ ] Youtube
+-  [ si] Instagram
+-  [ si] Componente para selección de vuelos
+-  [ si] Timeline
+-  [ si] Componente Perfil
+-  [si ] Youtube
 
 ### SASS
--  [ ] Sass básico
--  [ ] Diseño de Interiores
+-  [ si] Sass básico
+-  [si ] Diseño de Interiores
 
 ## Unidad 6: Frameworks de JavaScript: React, Vue y Angular
--  [ ] Instalación de React Usando Vite
--  [ ] Login Básico
--  [ ] Redirección de Rutas
--  [ ] Outlet
--  [ ] Estructura del Proyecto
--  [ ] Imágenes
--  [ ] Children
+-  [si ] Instalación de React Usando Vite
+-  [ si] Login Básico
+-  [ si] Redirección de Rutas
+-  [ si] Outlet
+-  [ si] Estructura del Proyecto
+-  [ si] Imágenes
+-  [ si] Children
 
 
 ## Unidad 7: Backend y APIs
--  [ ] Mock del Backend
--  [ ] Análisis de Pokeapi
--  [ ] APIs en React
--  [ ] APIs en React
--  [ ] Carrito
+-  [si ] Mock del Backend
+-  [si ] Análisis de Pokeapi
+-  [si ] APIs en React
+-  [ si] APIs en React
+-  [si ] Carrito
 
 ## Unidad 8: Buenas prácticas en los desarrollos web
 
