@@ -47,24 +47,24 @@
 
 ## Unidad 3: JavaScript y ES6+
 
--  [ ] Hola Mundo!
--  [ ] Conversor de Unidades
--  [ ] Documentación
--  [ ] Grados a Radianes
--  [ ] Refactorización
--  [ ] Mostrar/Ocultar div
--  [ ] Mostrar/Ocultar Dialog
--  [ ] Operaciones Matemáticas
--  [ ] Conversor de Unidades II
--  [ ] Operaciones Matemáticas II
--  [ ] Renderizado Dinámico
--  [ ] Renderizado Dinámico del Dialog
--  [ ] Carrito de Compras con localstorage
--  [ ] Vaciar Carrito y Eliminar Producto
--  [ ] Filter
--  [ ] Formatear Precio
--  [ ] Total y Cantidad de Productos
--  [ ] Ordenar el catálogo
+-  [ si] Hola Mundo!
+-  [si ] Conversor de Unidades
+-  [si ] Documentación
+-  [si ] Grados a Radianes
+-  [si ] Refactorización
+-  [si ] Mostrar/Ocultar div
+-  [si ] Mostrar/Ocultar Dialog
+-  [si ] Operaciones Matemáticas
+-  [si ] Conversor de Unidades II
+-  [ si] Operaciones Matemáticas II
+-  [si ] Renderizado Dinámico
+-  [si ] Renderizado Dinámico del Dialog
+-  [si ] Carrito de Compras con localstorage
+-  [si ] Vaciar Carrito y Eliminar Producto
+-  [si ] Filter
+-  [si ] Formatear Precio
+-  [si ] Total y Cantidad de Productos
+-  [ si] Ordenar el catálogo
 
 ## Unidad 4: Funcionamiento del Navegador y Herramientas de Desarrollo
 -  [ ] Checkeo de accesiilidad: AXE
