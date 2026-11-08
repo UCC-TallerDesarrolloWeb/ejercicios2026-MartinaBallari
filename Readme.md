@@ -73,15 +73,15 @@
 ## Unidad 5: Frameworks y Preprocesadores CSS
 
 ### BootStrap
--  [ ] Instagram
--  [ ] Componente para selección de vuelos
--  [ ] Timeline
--  [ ] Componente Perfil
--  [ ] Youtube
+-  [ si] Instagram
+-  [si ] Componente para selección de vuelos
+-  [ si] Timeline
+-  [si ] Componente Perfil
+-  [ si] Youtube
 
 ### SASS
--  [ ] Sass básico
--  [ ] Diseño de Interiores
+-  [ si] Sass básico
+-  [ si] Diseño de Interiores
 
 ## Unidad 6: Frameworks de JavaScript: React, Vue y Angular
 -  [ ] Instalación de React Usando Vite
