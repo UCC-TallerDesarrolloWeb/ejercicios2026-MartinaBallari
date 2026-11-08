@@ -94,11 +94,11 @@
 
 
 ## Unidad 7: Backend y APIs
--  [ ] Mock del Backend
--  [ ] Análisis de Pokeapi
--  [ ] APIs en React
--  [ ] APIs en React
--  [ ] Carrito
+-  [si ] Mock del Backend
+-  [ si] Análisis de Pokeapi
+-  [si ] APIs en React
+-  [ si] APIs en React
+-  [ si] Carrito
 
 ## Unidad 8: Buenas prácticas en los desarrollos web
 
