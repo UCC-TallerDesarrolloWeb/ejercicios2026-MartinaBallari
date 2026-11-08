@@ -1,0 +1,32 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "titulo": "Yoga",
+      "subtitulo": "Equilibrio y bienestar",
+      "imagen": "yoga.jpg",
+      "descripcion": "Clases para trabajar la flexibilidad y la relajación."
+    },
+    {
+      "id": 2,
+      "titulo": "Zumba",
+      "subtitulo": "Baile y diversión",
+      "imagen": "zumba.jpg",
+      "descripcion": "Entrenamiento grupal con música y baile."
+    },
+    {
+      "id": 3,
+      "titulo": "Musculación",
+      "subtitulo": "Fuerza y resistencia",
+      "imagen": "musculacion.jpg",
+      "descripcion": "Entrenamiento para desarrollar fuerza muscular."
+    },
+    {
+      "id": 4,
+      "titulo": "Funcional",
+      "subtitulo": "Movimiento y energía",
+      "imagen": "funcional.jpg",
+      "descripcion": "Ejercicios para mejorar la condición física."
+    }
+  ]
+}

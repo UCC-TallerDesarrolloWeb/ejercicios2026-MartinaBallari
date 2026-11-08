@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Auriculares",
+      "precio": 25000,
+      "descripcion": "Auriculares inalámbricos"
+    },
+    {
+      "id": 2,
+      "nombre": "Teclado",
+      "precio": 35000,
+      "descripcion": "Teclado mecánico"
+    },
+    {
+      "id": 3,
+      "nombre": "Mouse",
+      "precio": 15000,
+      "descripcion": "Mouse inalámbrico"
+    },
+    {
+      "id": 4,
+      "nombre": "Monitor",
+      "precio": 180000,
+      "descripcion": "Monitor LED"
+    }
+  ]
+}
